@@ -1,6 +1,6 @@
 # Sari-Sari Store Restock & Lista Alert System (Pub-Sub Middleware)
 
-A local publish-subscribe (pub-sub) middleware system built with **Python 3 (`asyncio`, `sqlite3`, `json`)** modeled after **Auntie's Sari-Sari Store**. It supports hierarchical topic wildcards (`+` and `#`), persistent SQLite WAL queues for offline catch-up and at-least-once delivery, and subscriber-side idempotency (`_seen.db`).
+A local publish-subscribe (pub-sub) middleware system built with **Python 3 (`asyncio`, `sqlite3`, `json`)** modeled after **Sari-Sari Store**. It supports hierarchical topic wildcards (`+` and `#`), persistent SQLite WAL queues for offline catch-up and at-least-once delivery, and subscriber-side idempotency (`_seen.db`).
 
 ## Project Files
 - `protocol.py` — Newline-delimited JSON wire frames, topic wildcard matching (`+` and `#`), and color-coded terminal helpers.
